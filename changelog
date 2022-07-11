@@ -1,0 +1,12 @@
+Versão 1.0.0 (09/07/2022)
+    Um terminal básico funcionando apenas para escrever, junto de alguns bugs.
+Versão 1.0.1 (11/07/2022)
+    1. Alguns bugs da versão anterior foram corrigidos;
+    2. Seleção de textos dentro do terminal e cursor modificado para o tipo "text";
+    3. Agora links dentro do terminal ao serem clicados te redirecionarão para o link;
+    4. Possibilidade de criação de comandos com método registerCommand(commandName, callback);
+    5. Navegação pelo histórico de comandos do terminal usando as setas para cima e para baixo;
+    6. Apertando "Control + C" você conseguirá copiar o texto selecionado no terminal;
+    7. Apertando "Control + V" você conseguirá colar um texto copiado para o terminal;
+    8. Comandos adicionados:
+        clear - limpa o terminal e seus comandos;
